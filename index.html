@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital & Analog Clock App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="hero">
+      <!-- ANALOG CLOCK -->
+      <div class="analog-clock-main-container">
+        <div class="analog-container">
+          <div class="analog-clock">
+            <div class="analog-background"></div>
+
+            <div class="needle hrs" style="--h: 6rem; --clr: #f41b75">
+              <span></span>
+            </div>
+            <div class="needle mins" style="--h: 8rem; --clr: #419aff">
+              <span></span>
+            </div>
+            <div class="needle secs" style="--h: 10rem; --clr: white">
+              <span></span>
+            </div>
+
+            <ul>
+              <li style="--i: 1"><span>1</span></li>
+              <li style="--i: 2"><span>2</span></li>
+              <li style="--i: 3"><span>3</span></li>
+              <li style="--i: 4"><span>4</span></li>
+              <li style="--i: 5"><span>5</span></li>
+              <li style="--i: 6"><span>6</span></li>
+              <li style="--i: 7"><span>7</span></li>
+              <li style="--i: 8"><span>8</span></li>
+              <li style="--i: 9"><span>9</span></li>
+              <li style="--i: 10"><span>10</span></li>
+              <li style="--i: 11"><span>11</span></li>
+              <li style="--i: 12"><span>12</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIGITAL CLOCK -->
+      <div class="container">
+        <div class="clock">
+          <span id="hour"></span>
+          <span>:</span>
+          <span id="min"></span>
+          <span>:</span>
+          <span id="sec"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
