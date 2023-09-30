@@ -1,2 +1,3 @@
-# clock-project
-A Javascript/CSS/HTML Digital &amp; Analog Clock Project.
+# Digital & Analog Clock Project
+
+A Digital &amp; Analog Clock Project based on Javascript/CSS.
